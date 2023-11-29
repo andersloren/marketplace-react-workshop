@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './Header';
-import Body from './Body';
+import Header from './components/header/Header';
+import { AdsList } from './components/AdsList';
 
 
 const App = () => {
     return (
         <div>
             <Header />
-            <Body />
+            <AdsList />
         </div>
     );
 };
